@@ -1,0 +1,38 @@
+#encabezado {
+    background-color: #4A148C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#titulo-sobre-mi {
+    color: #4A148C;
+}
+
+.sobre-mi {
+    background-color: #FFF59D; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.experiencia {
+    background-color: #FFF176; 
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contacto {
+    background-color: #FFEE58;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #FFF9C4; 
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
