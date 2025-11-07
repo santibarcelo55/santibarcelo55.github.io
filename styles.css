@@ -1,0 +1,116 @@
+/* ===== Estilos generales ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 0 1rem;
+}
+
+/* ===== Encabezado ===== */
+header {
+  background: linear-gradient(135deg, #005bea, #00c6fb);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-radius: 0 0 25px 25px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+/* ===== Secciones ===== */
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+section {
+  background: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #005bea;
+  margin-bottom: 1rem;
+}
+
+p, li {
+  font-size: 1rem;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+/* ===== Contacto ===== */
+.contacto a {
+  color: #005bea;
+  text-decoration: none;
+}
+
+.contacto a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 20px 20px 0 0;
+}
+
+/* ===== Responsive Design ===== */
+
+/* Tablet */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  section {
+    padding: 1.5rem;
+  }
+}
+
+/* Celular */
+@media (max-width: 480px) {
+  body {
+    padding: 0.5rem;
+  }
+  header {
+    padding: 2rem 1rem;
+  }
+  header h1 {
+    font-size: 1.6rem;
+  }
+  main {
+    margin: 1rem 0;
+  }
+  section {
+    padding: 1rem;
+  }
+  footer {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+}
